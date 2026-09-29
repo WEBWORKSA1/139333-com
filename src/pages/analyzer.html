@@ -1,0 +1,33 @@
+<!--meta {"title":"Phone Number Luck Analyzer — Is My Number Lucky in Chinese? | 139333.com","description":"Free Chinese phone number luck checker. Get a score out of 100, digit-by-digit colours and every lucky (168, 518, 888, 1314) or unlucky (4, 14, 748) combination in your number.","nav":"analyzer","crumb":"Phone Number Analyzer","scripts":["engine","tools"],"faq":[["How is the score calculated?","We start at 50, then add or subtract points for each digit (8, 9, 6 positive; 4 strongly negative), for 40+ known combinations such as 168 or 14, and for patterns like AAA tails or ABAB. Digits near the end weigh more because they are what people remember. The full method is on our About page."],["Does the country code matter?","Enter the number the way people will see and say it. Most people read the last 4–8 digits, so those carry the most weight."],["Is 4 always bad?","4 (sì) sounds like 死 (death) and is widely avoided, especially at the end of a number. Some combinations soften it — 54 can read as 无事 'no trouble' — but most buyers still pay less for numbers containing 4."],["Is my number stored?","No. The analysis runs entirely in your browser. Only if you choose to request an emailed report do we receive the number you typed."]]} -->
+<section class="page-hero"><div class="wrap">
+ <span class="eyebrow">Free tool</span>
+ <h1>Phone Number Luck Analyzer</h1>
+ <p>Type any mobile, landline, room or account number. We decode it the way a Chinese speaker hears it — sound by sound — and show exactly why it scores high or low.</p>
+</div></section>
+<section style="padding-top:10px"><div class="wrap grid with-aside">
+ <div>
+  <form class="tool" data-analyzer="#anOut">
+   <div class="tool-title"><h2 style="margin:0;font-size:1.3rem">Check a number</h2><span class="pill pos">Runs in your browser</span></div>
+   <div class="field"><label for="anNum">Phone number</label><input id="anNum" name="number" class="input-xl" inputmode="numeric" autocomplete="off" placeholder="e.g. 139 3333 1688" required><span class="hint">Spaces, dashes and + are ignored.</span></div>
+   <button class="btn btn-primary btn-block" type="submit">Analyze my number</button>
+  </form>
+  <div id="anOut" class="result tool" aria-live="polite"></div>
+  {{AD}}
+  <div class="prose" style="margin:0">
+   <h2>How Chinese speakers “hear” a phone number</h2>
+   <p>Chinese has many words that sound alike. When a number is read aloud, each digit echoes a word: <b>8 (bā)</b> echoes <b>发 fā</b>, to prosper; <b>9 (jiǔ)</b> echoes <b>久</b>, long-lasting; <b>6 (liù)</b> echoes <b>流</b>, smooth; and <b>4 (sì)</b> echoes <b>死</b>, death. In phone numbers, 1 is usually spoken <b>yāo (幺)</b>, which sounds like <b>要</b> — “will / want”.</p>
+   <p>Strings form phrases: <b>168</b> 一路发 “prosper all the way”, <b>518</b> 我要发 “I will prosper”, <b>1314</b> 一生一世 “for a lifetime”. Other strings are avoided: <b>14</b> 要死, <b>748</b> 去死吧.</p>
+   <h3>What makes a number valuable?</h3>
+   <ul><li><b>The tail.</b> The last 4 digits are what people remember and repeat.</li><li><b>Repetition.</b> AAA, AAAA and longer runs (“leopard” numbers, 豹子号) are the main price driver.</li><li><b>The digit.</b> Runs of 8, 9 and 6 outprice runs of 3, 5 or 7.</li><li><b>No 4s.</b> A single 4 can cut resale demand sharply.</li></ul>
+   <p>Want to know what your number could sell for? Use the <a href="valuation.html">Number Value Estimator</a>.</p>
+  </div>
+ </div>
+ <aside>
+  <div class="card" style="position:sticky;top:90px">
+   <span class="eyebrow">Concierge</span><h3>Need a luckier number?</h3><p class="small muted">We source numbers with the tail you want — 888, 1688, 5201314 — in China, Hong Kong, Singapore, Canada &amp; more.</p>
+   <a class="btn btn-primary btn-block" href="services.html?service=source">Request a number</a>
+   <a class="btn btn-ghost btn-block" style="margin-top:8px" href="services.html?service=sell">Sell my number</a>
+   <div class="ad-slot" data-slot="sidebar" style="min-height:250px;margin-top:18px">Advertisement</div>
+  </div>
+ </aside>
+</div></section>
