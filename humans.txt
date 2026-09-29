@@ -1,0 +1,4 @@
+/* SITE */
+Site: 139333.com — Lucky Number Lab
+Standards: HTML5, CSS3, vanilla JS
+Hosting: GitHub Pages
