@@ -1,0 +1,46 @@
+<!--meta {"title":"Lucky Phone Number Value Estimator — What Is My Number Worth? | 139333.com","description":"Estimate which price tier your lucky mobile number falls into (Standard, Silver, Gold, Platinum, Legendary) based on reported auction patterns, then request a free human valuation.","nav":"valuation","crumb":"Number Value Estimator","scripts":["engine","tools"],"faq":[["Is this an appraisal?","No. It places your number in a pattern tier based on publicly reported sales. Real prices depend on operator rules, region, contract lock-ins, and the buyers active at the time. Request a human valuation for a real opinion."],["Can phone numbers legally be sold?","Rules differ by country and operator. In mainland China numbers are tied to real-name registration, and there have been official crackdowns on lucky-number fees. Many sales happen through operator auctions or court auctions. We only broker transfers that are allowed where you live."],["What sells best?","Long runs of 8, 9 or 6 at the end of the number (AAAA, AAAAA), meaningful endings like 1688 or 5201314, and numbers with no 4s."]]} -->
+<section class="page-hero"><div class="wrap">
+ <span class="eyebrow">Free estimate + human valuation</span>
+ <h1>What is your lucky number worth?</h1>
+ <p>Lucky numbers trade like collectibles. A mobile number ending in five 8s drew over 5,000 bids and sold for ¥2.25 million in a 2020 court auction. Yours is probably worth less — but find out which tier it's in.</p>
+</div></section>
+<section style="padding-top:10px"><div class="wrap">
+ <form class="tool" id="valForm">
+  <div class="row"><div class="field"><label for="vn">Your number</label><input id="vn" name="number" class="input-xl" inputmode="numeric" required placeholder="13933338888"></div>
+  <div class="field"><label for="vt">Type</label><select id="vt" name="type"><option>Mobile number</option><option>Licence plate</option><option>Numeric domain (.com)</option><option>Landline / 400 number</option></select></div></div>
+  <button class="btn btn-primary btn-block" type="submit">Estimate tier</button>
+  <div id="valOut" class="result" aria-live="polite"></div>
+ </form>
+ {{AD}}
+ <h2>The five pattern tiers</h2>
+ <div class="table-wrap"><table>
+  <thead><tr><th>Tier</th><th>Typical pattern</th><th>Indicative band*</th><th>Real-world reference</th></tr></thead>
+  <tbody>
+   <tr><td><span class="pill mix">Standard</span></td><td>No run, few lucky combos</td><td>Face value – ¥500</td><td>Everyday numbers</td></tr>
+   <tr><td><span class="pill pos">Silver</span></td><td>AAA tail, ABAB, 168/518 endings</td><td>¥500 – ¥5,000</td><td>An 888-tail number sold for ¥32,300 at a court auction; most AAA tails trade far lower</td></tr>
+   <tr><td><span class="pill pos">Gold</span></td><td>AAAA tail, 1688, 1314, 8888</td><td>¥5,000 – ¥50,000</td><td>Strong demand in operator and online auctions</td></tr>
+   <tr><td><span class="pill pos">Platinum</span></td><td>AAAAA, or AAAA of 8/9/6</td><td>¥50,000 – ¥500,000</td><td>A five-5s tail sold for ~¥350,000, about 30× its starting price</td></tr>
+   <tr><td><span class="pill pos">Legendary</span></td><td>6+ run, 8888-8888</td><td>¥500,000+</td><td>Eight 7s: ¥3.91M (2017) · 8888-8888: ¥2.33M (Sichuan Airlines, 2003)</td></tr>
+  </tbody></table></div>
+ <p class="small muted" style="margin-top:8px">*Bands are an editorial guide built from press-reported sales (SCMP, VICE, China Daily, Sixth Tone). They are not appraisals or offers.</p>
+</div></section>
+<section class="section-alt" id="valLead"><div class="wrap grid g2" style="align-items:start">
+ <div>
+  <span class="eyebrow">Free human valuation</span>
+  <h2>Get a real valuation &amp; buyer outreach</h2>
+  <p>Send us your number. A specialist checks recent comparable sales, operator lock-in rules and buyer demand, then replies with a price range and a selling plan — free, and with no obligation to sell.</p>
+  <ul class="checklist"><li>Price range based on comparable sales</li><li>Where to sell: operator, auction, broker or private sale</li><li>Optional discreet listing to our buyer list</li><li>Numeric .com domains valued too (6N, 5N, 4N)</li></ul>
+ </div>
+ <div class="card">
+  <form data-form="Valuation request" data-success="Thanks! Your valuation request is in — expect a reply within 48 hours.">
+   <div class="field"><label for="vln">Number / domain / plate</label><input id="vln" name="number" required></div>
+   <div class="row"><div class="field"><label for="vlc">Country / region</label><input id="vlc" name="country" placeholder="China, HK, SG, Canada…" required></div>
+   <div class="field"><label for="vlo">Operator (if phone)</label><input id="vlo" name="operator" placeholder="e.g. China Mobile, Rogers"></div></div>
+   <div class="field"><label for="vlg">Goal</label><select id="vlg" name="goal"><option>Just curious — value only</option><option>Sell within 30 days</option><option>Sell at the best price, no rush</option><option>Swap for a different lucky number</option></select></div>
+   <div class="row"><div class="field"><label for="vla">Your name</label><input id="vla" name="name" required></div><div class="field"><label for="vle">Email</label><input id="vle" type="email" name="email" required></div></div>
+   <div class="field"><label for="vlw">WhatsApp / WeChat (optional)</label><input id="vlw" name="messenger"></div>
+   <label class="check"><input type="checkbox" required name="consent" value="yes"> I confirm I own or am authorised to sell this asset, and I agree to the <a href="legal.html">terms</a>.</label>
+   <button class="btn btn-primary btn-block" type="submit">Request my free valuation</button>
+  </form>
+ </div>
+</div></section>
